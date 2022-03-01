@@ -2,32 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mutts Wanted</title>
+
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Latest JQuery import -->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+    />
     <!--favicon images-->
     <link href="images/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="images/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
     <link href="images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-
+    <title>Mutts Wanted</title>
 </head>
 <body>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-expand-lg" id="menubar">
+    <div class="container">
 
-<!--use this script to import header and navigation into new pages-->
-<div id="navigation-placeholder">
-    <script>
-        $(function(){
-            $("#navigation-placeholder").load("navigation.html");
-        });
-    </script>
-</div>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navigationmenu">
+                <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div>
-</div>
-
+        <div class="collapse navbar-collapse" id="navigationmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="search.html">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pupofthemonth.html">Pup of the Month</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<a href="index.html"><img src="images/banner.png" class="navbar-brand" alt="Mutts Wanted"></a>
 </body>
 </html>
