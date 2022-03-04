@@ -14,29 +14,55 @@
     <title>Mutts Wanted</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg" id="menubar">
-    <div class="container">
-        <div class="collapse navbar-collapse" id="navigationmenu">
-            <ul class="navbar-nav ms-auto">
+<div id="pageheader">
+    <div id="navbar">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="search.html">Search</a>
+                    <a class="nav-link" href="search.html">Find a Dog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pupofthemonth.html">Pup of the Month</a>
+                    <a class="nav-link" href="pupofthemonth.html">Pup of the Month</a>
                 </li>
                 <li class="nav-item">
-                    <a href="login.html">Log In</a>
+                    <a class="nav-link" href="login.html">Register/Login</a>
                 </li>
             </ul>
         </div>
-    </div>
-</nav>
-<a href="index.html"><img src="images/banner.png" class="navbar-brand" alt="Mutts Wanted"></a>
+<a href="index.html"><img src="/images/banner.png" alt="Mutts Wanted"></a>
+</div>
+<div id="welcomePage">
+    <img src="/images/dog_closeup.jpg" alt="brown pit-bull">
+    <button type="submit"><a href="search.html">Find Your Friend Now</a></button>
+</div>
+
 </body>
+<footer>
+    <div id="footerContents">
+            <div id="newsletterContents">
+                <p>Sign Up for Our Newsletter</p>
+                <button type="submit" id="newsletterButton" >Submit</button>
+            </div>
+           <label id="newsletterLabel">
+                <input type="text" class="form-control" placeholder="e-mail address">
+            </label>
+         </div>
+    <div id="logo">
+         <a href="index.html"><img src="images/logo.jpg"
+                                   alt="Mutts Wanted">
+         </a>
+    </div>
+    <div id="footerNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="search.html">Find a Dog</a>
+        <a href="pupofthemonth.html">Dog of the Month</a>
+        <a href="login.html">Log In</a>
+    </div>
+</footer>
 </html>
