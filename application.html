@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form class="row" id="application">
+    <div class="col-md-6">
+        <label for="emailOfAdopter" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailOfAdopter">
+    </div>
+    <div class="col-12">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address"
+               placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+        <label for="address2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment">
+    </div>
+    <div class="col-md-6">
+        <label for="city" class="form-label">City</label>
+        <input type="text" class="form-control" id="city">
+    </div>
+    <div class="col-md-4">
+        <label for="state" class="form-label">State</label>
+        <select id="state" class="form-select">
+            <option selected>Select State</option>
+            <option>AL</option>
+            <option>AK</option>
+            <option>AZ</option>
+            <option>AK</option>
+            <option>CA</option>
+            <option>CO</option>
+            <option>CT</option>
+            <option>DE</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <label for="zipCode" class="form-label">Zip Code</label>
+        <input type="text" class="form-control" id="zipCode" placeholder="00000">
+    </div>
+    <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Do you own or rent?</legend>
+        <div class="col-sm-10">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ownOrRent" id="own" value="own" checked>
+                <label class="form-check-label" for="own">
+                   Own
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ownOrRent" id="rent" value="rent">
+                <label class="form-check-label" for="rent">
+                    Rent
+                </label>
+            </div>
+        </div>
+    </fieldset>
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                I consent to having my information submitted to the
+                shelter currently holding this dog
+            </label>
+        </div>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+    </div>
+</form>
+</body>
+</html>
